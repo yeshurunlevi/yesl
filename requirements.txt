@@ -1,6 +1,6 @@
 streamlit
 numpy
 matplotlib.pyplot
-skimage
-cv2
+scikit-image
+opencv-contrib-python-headless
 scipy
