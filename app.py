@@ -157,5 +157,10 @@ if app_mode == 'Segment an Image':
     # Display the result on the right (main frame)
     st.subheader('Output Image')
     st.image(segmented_image, use_column_width=True)
-    
- 
+    with open('requirements.txt', 'w') as f:
+    f.write('''streamlit
+scikit-image
+opencv-contrib-python-headless
+numpy
+scipy
+matplotlib.pyplot''')
