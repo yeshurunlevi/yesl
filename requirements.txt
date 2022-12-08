@@ -1,6 +1,7 @@
-streamlit==22.3.1
+streamlit
 scikit-image
 numpy
-matplotlib.pyplot==22.3.1
+matplotlib.pyplot
 opencv-contrib-python-headless
 scipy
+/home/appuser/venv/bin/python -m pip install --upgrade pip
