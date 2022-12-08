@@ -1,6 +1,6 @@
 json
-streamlit scikit-image
+streamlit scikit-image==22.3.1
 numpy
-matplotlib.pyplot
+matplotlib.pyplot==22.3.1
 opencv-contrib-python-headless
 scipy
