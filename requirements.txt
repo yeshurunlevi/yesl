@@ -1,6 +1,5 @@
-streamlit
+streamlit scikit-image
 numpy
 matplotlib.pyplot
-scikit-image
 opencv-contrib-python-headless
 scipy
