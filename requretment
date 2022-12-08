@@ -1,0 +1,7 @@
+# add more libraries if you used! as a new line
+with open('requirements.txt', 'w') as f:
+    f.write('''import matplotlib.pyplot as plt
+from skimage import measure, io, img_as_ubyte, morphology, util, color
+import numpy as np
+import cv2
+from scipy import ndimage as nd''')
