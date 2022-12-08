@@ -1,2 +1,6 @@
 streamlit
 numpy
+matplotlib.pyplot
+skimage
+cv2
+scipy
