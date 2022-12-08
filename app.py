@@ -138,7 +138,7 @@ if app_mode == 'Segment an Image':
     )
     
     # read an image from the user
-    img_file_buffer = st.sidebar.file_uploader("Upload an image", type=['jpg', 'jpeg', 'png','jpeg'])# bottum to up image
+    img_file_buffer = st.sidebar.file_uploader("Upload an image", type=['jpg', 'jpeg', 'png'])# bottum to up image
 
     # assign the uplodaed image from the buffer, by reading it in
     if img_file_buffer is not None:
