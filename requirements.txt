@@ -2,4 +2,4 @@ streamlit scikit-image
 numpy
 matplotlib.pyplot
 opencv-contrib-python-headless
-pip install scipy
+scipy
