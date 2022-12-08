@@ -21,7 +21,7 @@ def find_green(img):
   print('Leaf px count:', leaf_count, 'px')
   print('Area:', leaf_count*pixel_cm_ratio, 'cm\N{SUPERSCRIPT TWO}', 'thats',leaf_count*pixel_cm_ratio)
   # vars
-DEMO_IMAGE = 'leafs.jepg' # a demo image for the segmentation page, if none is uploaded
+DEMO_IMAGE = 'leafs.jpeg' # a demo image for the segmentation page, if none is uploaded
 
 # main page
 st.set_page_config(page_title='green segment', page_icon = favicon, layout = 'wide', initial_sidebar_state = 'auto')
