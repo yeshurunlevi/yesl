@@ -1,6 +1,5 @@
 import streamlit as st
 import matplotlib.pyplot as plt
-from skimage import measure, io, img_as_ubyte, morphology, util, color
 import numpy as np
 import cv2
 from scipy import ndimage as nd
