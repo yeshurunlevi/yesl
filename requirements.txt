@@ -1,3 +1,4 @@
+pip install --upgrade pip
 streamlit scikit-image
 numpy
 matplotlib.pyplot
